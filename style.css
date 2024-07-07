@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color:hsl(0, 0%, 8%);
+}
+
+main{
+    background-color:  hsl(0, 0%, 12%);
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto auto auto;
+    border-radius: 10px;
+    display:grid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img{
+    width:100px;
+    border-radius: 100%;
+}
+
+.name{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.place{
+    color:hsl(75, 94%, 57%);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bio{
+    color: white;
+    font-size: 1em;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.box{
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-size: 500;
+}
+
+.box:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: black;
+      cursor: url(black-hand-pointing-up.png),pointer;
+}
+
+.attribution { 
+    color: white;
+    font-size: 11px; 
+    font-weight: 200;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:375px){
+    main{
+        margin: 100px 15px 50px 15px;
+        padding: 10px;
+        width:auto;
+    }
+}
