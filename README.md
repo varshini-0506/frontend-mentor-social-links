@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/varshini-0506/frontend-mentor-social-links.git]
-- Live Site URL: [Add live site URL hee]
+- Live Site URL: [https://varshini-0506.github.io/frontend-mentor-social-links/]
 
 ## My process
 
