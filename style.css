@@ -58,7 +58,7 @@ img{
 .box:hover{
       background-color: hsl(75, 94%, 57%);
       color: black;
-      cursor: url(black-hand-pointing-up.png),pointer;
+      cursor: url(assets/black-hand-pointing-up.png),pointer;
 }
 
 .attribution { 
